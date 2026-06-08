@@ -1,16 +1,10 @@
-```yaml
-# ============================================================
-# Identity
-# ============================================================
+
 name: "Matías Solorza"
 title: "PhD Candidate in Economics"
 institution: "University of California, Davis"
 email: "masolorza@ucdavis.edu"
 photo: "LinkedinMS.png"
 
-# ============================================================
-# Links
-# ============================================================
 links:
   google_scholar: ""
   github: ""
@@ -20,67 +14,12 @@ links:
   linkedin: "https://www.linkedin.com/in/matías-solorza-510427127"
   cv: ""
 
-# ============================================================
-# Site Settings
-# ============================================================
 accent_color: "#1a7a6d"
 dark_mode: false
 description: "Academic webpage of Matías Solorza"
 
 baseurl: ""
 url: "https://matiassolorza.github.io"
-
-analytics:
-  google_id: ""
-
-# ============================================================
-# Navigation
-# ============================================================
-nav_pages:
-  - name: about
-  - name: research
-
-# ============================================================
-# Advanced Settings
-# ============================================================
-include:
-  - .htaccess
-  - _pages
-
-sass:
-  quiet_deps: true
-  style: compressed
-
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  parse_block_html: true
-
-plugins:
-  - jekyll-sitemap
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - update_bootstrap.sh
-  - switch_theme.sh
-  - tags
-  - Rakefile
-  - node_modules
-  - package.json
-  - package-lock.json
-  - docs
 ```
+
 
