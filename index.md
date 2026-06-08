@@ -3,25 +3,38 @@ layout: minimal
 title: "Home"
 ---
 
-
-<div style="display:flex; gap:30px; align-items:flex-start; max-width:700px; margin:60px auto;">
+<div style="
+  display:flex;
+  gap:24px;
+  align-items:center;
+  max-width:700px;
+  margin:60px auto 30px auto;
+">
 
   <!-- PHOTO -->
- <img src="/images/LinkedinMS.png"
-     style="width:130px; height:auto; max-width:130px; object-fit:cover; border-radius:6px;"
-     alt="Matías Solorza">
+  <img src="/images/LinkedinMS.png"
+       style="
+         width:170px;
+         height:auto;
+         object-fit:cover;
+         border-radius:6px;
+         flex-shrink:0;
+       "
+       alt="Matías Solorza">
 
   <!-- TEXT -->
-  <div>
+  <div style="line-height:1.4;">
 
-    <h1 style="margin:0;">Matías Solorza</h1>
+    <h1 style="margin:0; font-size:28px;">
+      Matías Solorza
+    </h1>
 
-    <div style="margin-top:6px; color:var(--text-secondary);">
+    <div style="margin-top:6px; color:var(--text-secondary); font-size:16px;">
       PhD Candidate in Economics<br>
       University of California, Davis
     </div>
 
-    <div style="margin-top:10px;">
+    <div style="margin-top:10px; font-size:15px;">
       <a href="mailto:{{ site.email }}">Email</a> ·
       <a href="https://www.linkedin.com/in/matías-solorza-510427127">LinkedIn</a>
     </div>
