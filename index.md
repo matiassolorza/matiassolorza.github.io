@@ -13,6 +13,7 @@ title: "Home"
     font-size:52px;
     font-weight:300;
     margin-bottom:30px;
+    text-align:center;
   ">
     Matías Solorza
   </h1>
