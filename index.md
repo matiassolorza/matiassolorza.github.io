@@ -58,7 +58,6 @@ title: "Home"
 
   </div>
 
-</div>
 
 ## Research
 
