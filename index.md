@@ -44,7 +44,7 @@ title: "Home"
       </p>
 
       <p>
-        I am a PhD candidate in Economics at the University of California, Davis. My research focuses on macroeconomics and climate economics, with an emphasis on the impacts of natural disasters and climate risk. I study how these shocks shape investment, financial markets, regional recovery, and long-run economic development.
+        I am a PhD candidate in Economics at the University of California, Davis. My research lies at the intersection of macroeconomics and climate economics . I study how natural disasters and climate risks shape investment, financial markets, regional recovery, and long-run economic development.
       </p>
 
       <p>
