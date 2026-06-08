@@ -19,11 +19,11 @@ University of California, Davis
 ### Natural Disasters and Slow Recoveries: New Evidence from Chile  
 (with Lissette Briones)
 
-This paper studies long-run impacts of natural disasters in Chile.
+Work in progress analyzing the persistence of negative macroeconomic shocks from natural disasters in Chile, focusing on how capital destruction and financial frictions delay regional recovery.
 
 ---
 
 ### The Ambiguity Costs of Climate Change  
 (with Frances C. Moore and Benjamin Collier)
 
-Work in progress on uncertainty in climate policy.
+Work in progress on quantifying the economic costs of climate change-driven ambiguity and tail risks in US insurance markets.
