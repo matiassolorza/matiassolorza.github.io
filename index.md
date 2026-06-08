@@ -3,20 +3,15 @@ layout: minimal
 title: "Home"
 ---
 
-<div style="
-  max-width:900px;
-  margin:50px auto;
-">
-
-  <!-- NAME -->
+<div style="width:100%; text-align:center; margin-bottom:30px;">
   <h1 style="
     font-size:52px;
     font-weight:300;
-    margin-bottom:30px;
-    text-align:center;
+    margin:0;
   ">
     Matías Solorza
   </h1>
+</div>
 
   <!-- PHOTO + INFO -->
   <div style="
