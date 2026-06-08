@@ -14,7 +14,7 @@ title: "Home"
   <!-- PHOTO -->
   <img src="/images/LinkedinMS.png"
        style="
-         width:250px;
+         width:300px;
          height:auto;
          object-fit:cover;
          border-radius:6px;
