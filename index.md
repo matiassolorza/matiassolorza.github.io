@@ -48,8 +48,7 @@ title: "Home"
       </p>
 
       <p>
-        I study environmental economics, climate change,
-        natural disasters, and economic growth.
+        I am a PhD candidate in Economics at the University of California, Davis. My research focuses on macroeconomics and climate economics, with an emphasis on the impacts of natural disasters and climate risk. I study how these shocks shape investment, financial markets, regional recovery, and long-run economic development.
       </p>
 
       <p>
