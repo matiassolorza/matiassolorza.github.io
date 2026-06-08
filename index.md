@@ -8,7 +8,7 @@ title: "Home"
 
   <!-- PHOTO -->
  <img src="/images/LinkedinMS.png"
-     style="width:120px; height:120px; object-fit:cover; border-radius:8px;"
+     style="width:130px; height:auto; max-width:130px; object-fit:cover; border-radius:6px;"
      alt="Matías Solorza">
 
   <!-- TEXT -->
@@ -29,9 +29,6 @@ title: "Home"
   </div>
 </div>
 
----
-
----
 
 ## Research
 
@@ -40,7 +37,6 @@ title: "Home"
 
 Work in progress analyzing the persistence of negative macroeconomic shocks from natural disasters in Chile, focusing on how capital destruction and financial frictions delay regional recovery.
 
----
 
 ### The Ambiguity Costs of Climate Change  
 (with Frances C. Moore and Benjamin Collier)
