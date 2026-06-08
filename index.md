@@ -3,14 +3,33 @@ layout: minimal
 title: "Home"
 ---
 
-# Matías Solorza
 
-*PhD Candidate in Economics*  
-University of California, Davis  
+<div style="display:flex; gap:30px; align-items:flex-start; max-width:700px; margin:60px auto;">
 
-[masolorza@ucdavis.edu](mailto:masolorza@ucdavis.edu)
+  <!-- PHOTO -->
+  <img src="{{ '/images/LinkedinMS.png' | relative_url }}"
+       style="width:120px; height:120px; object-fit:cover; border-radius:8px;"
+       alt="{{ site.name }}">
 
-[LinkedIn](https://www.linkedin.com/in/matías-solorza-510427127)
+  <!-- TEXT -->
+  <div>
+
+    <h1 style="margin:0;">Matías Solorza</h1>
+
+    <div style="margin-top:6px; color:var(--text-secondary);">
+      PhD Candidate in Economics<br>
+      University of California, Davis
+    </div>
+
+    <div style="margin-top:10px;">
+      <a href="mailto:{{ site.email }}">Email</a> ·
+      <a href="https://www.linkedin.com/in/matías-solorza-510427127">LinkedIn</a>
+    </div>
+
+  </div>
+</div>
+
+---
 
 ---
 
