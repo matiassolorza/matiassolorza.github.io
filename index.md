@@ -4,44 +4,66 @@ title: "Home"
 ---
 
 <div style="
-  display:flex;
-  gap:24px;
-  align-items:center;
-  max-width:700px;
-  margin:60px auto 30px auto;
+  max-width:900px;
+  margin:50px auto;
 ">
 
-  <!-- PHOTO -->
-  <img src="/images/LinkedinMS.png"
-       style="
-         width:370px;
-         height:auto;
-         object-fit:cover;
-         border-radius:6px;
-         flex-shrink:0;
-       "
-       alt="Matías Solorza">
+  <!-- NAME -->
+  <h1 style="
+    font-size:52px;
+    font-weight:300;
+    margin-bottom:30px;
+  ">
+    Matías Solorza
+  </h1>
 
-  <!-- TEXT -->
-  <div style="line-height:1.4;">
+  <!-- PHOTO + INFO -->
+  <div style="
+    display:flex;
+    gap:35px;
+    align-items:flex-start;
+  ">
 
-    <h1 style="margin:0; font-size:28px;">
-      Matías Solorza
-    </h1>
+    <!-- PHOTO -->
+    <img src="/images/LinkedinMS.png"
+         alt="Matías Solorza"
+         style="
+           width:300px;
+           height:auto;
+           object-fit:cover;
+           border-radius:0;
+           flex-shrink:0;
+         ">
 
-    <div style="margin-top:6px; color:var(--text-secondary); font-size:16px;">
-      PhD Candidate in Economics<br>
-      University of California, Davis
-    </div>
+    <!-- TEXT -->
+    <div style="
+      line-height:1.6;
+      font-size:18px;
+      max-width:500px;
+    ">
 
-    <div style="margin-top:10px; font-size:15px;">
-      <a href="mailto:{{ site.email }}">Email</a> ·
-      <a href="https://www.linkedin.com/in/matías-solorza-510427127">LinkedIn</a>
+      <p style="margin-top:0;">
+        PhD Candidate in Economics<br>
+        University of California, Davis
+      </p>
+
+      <p>
+        I study environmental economics, climate change,
+        natural disasters, and economic growth.
+      </p>
+
+      <p>
+        <a href="mailto:{{ site.email }}">Email</a> |
+        <a href="https://www.linkedin.com/in/matias-solorza-510427127">
+          LinkedIn
+        </a>
+      </p>
+
     </div>
 
   </div>
-</div>
 
+</div>
 
 ## Research
 
