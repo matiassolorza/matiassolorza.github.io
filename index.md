@@ -7,7 +7,7 @@ title: "Home"
 <div style="display:flex; gap:30px; align-items:flex-start; max-width:700px; margin:60px auto;">
 
   <!-- PHOTO -->
- <img src="{{ '/images/LinkedinMS.png' | relative_url }}"
+ <img src="/images/LinkedinMS.png"
      style="width:120px; height:120px; object-fit:cover; border-radius:8px;"
      alt="Matías Solorza">
 
