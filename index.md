@@ -1,5 +1,5 @@
 ---
-layout: homelay
+layout: minimal
 title: "Home"
 ---
 
