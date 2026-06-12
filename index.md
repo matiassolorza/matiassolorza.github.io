@@ -3,17 +3,7 @@ layout: minimal
 title: "Home"
 ---
 
-<img
-class="profile-photo"
-src="/images/LinkedinMS.png"
-alt="Matías Solorza"
-style="
-width:300px;
-height;
-object-fit;
-border-radius:0;
-flex-shrink:0;
-"
+<img class="profile-photo" src="/images/LinkedinMS.png" alt="Matías Solorza" style="width:300px;height:auto;object-fit:cover;border-radius:0;flex-shrink:0;">
 
 <p style="margin-top:0;">
   PhD Candidate in Economics<br>
