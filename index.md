@@ -51,7 +51,7 @@ title: "Home"
   }
 
   .profile-photo {
-    width: 180px;
+    width: 320px;
   }
 
   .profile-text {
