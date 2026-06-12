@@ -39,16 +39,14 @@ title: "Home"
   }
 
   .desktop-name {
-    display: none;
-  }
+  font-size: 52px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
 
-  .mobile-name {
-    display: block;
-    font-size: 40px;
-    font-weight: 300;
-    margin: 25px 0;
-    text-align: center;
-  }
+.mobile-name {
+  display: none;
+}
 
   .profile-photo {
     width: 320px;
@@ -64,12 +62,6 @@ title: "Home"
  
 }
 </style>
-
-<div class="desktop-title">
-  <h1 class="desktop-name">
-    Matías Solorza
-  </h1>
-</div>
 
 <div class="profile">
 
@@ -88,8 +80,11 @@ title: "Home"
 
   </div>
 
-  <div class="profile-text">
+<div class="profile-text">
 
+<h1 class="desktop-name">
+    Matías Solorza
+  </h1>
 
 <p style="margin-top:0;">
   PhD Candidate in Economics<br>
