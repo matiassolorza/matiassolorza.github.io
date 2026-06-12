@@ -3,6 +3,8 @@ layout: minimal
 title: "Home"
 ---
 
+<div style="width:100%; text-align:center; margin-bottom:30px;"> <h1 style=" font-size:52px; font-weight:300; margin:0; "> Matías Solorza </h1> </div>
+
 <img class="profile-photo" src="/images/LinkedinMS.png" alt="Matías Solorza" style="width:300px;height:auto;object-fit:cover;border-radius:0;flex-shrink:0;">
 
 <p style="margin-top:0;">
