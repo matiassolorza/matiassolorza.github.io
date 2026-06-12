@@ -6,8 +6,7 @@ title: "Home"
 <img
   class="profile-photo"
   src="/images/LinkedinMS.png"
-  alt="Matías Solorza"
->
+  alt="Matías Solorza">
 
 <h1 class="mobile-name">
   Matías Solorza
