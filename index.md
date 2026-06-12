@@ -57,12 +57,19 @@ title: "Home"
   .profile-text {
     width: 100%;
   }
+
+  .desktop-title {
+  text-align: center;
+  }
+ 
 }
 </style>
 
-<h1 class="desktop-name">
-  Matías Solorza
-</h1>
+<div class="desktop-title">
+  <h1 class="desktop-name">
+    Matías Solorza
+  </h1>
+</div>
 
 <div class="profile">
 
