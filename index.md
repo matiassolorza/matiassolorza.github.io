@@ -11,7 +11,7 @@ title: "Home"
 }
 
 .profile-photo {
-  width: 220px;
+  width: 320px;
   height: auto;
   flex-shrink: 0;
 }
