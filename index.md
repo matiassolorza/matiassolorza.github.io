@@ -38,7 +38,7 @@ flex:0 0 auto;
     font-size:18px;
   ">
 
-```
+
 <p style="margin-top:0;">
   PhD Candidate in Economics<br>
   University of California, Davis
@@ -57,7 +57,6 @@ flex:0 0 auto;
     LinkedIn
   </a>
 </p>
-```
 
   </div>
 
