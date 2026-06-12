@@ -1,76 +1,136 @@
-# Upgrading from the Previous Template
+---
+layout: minimal
+title: "Home"
+---
 
-If you're already using the old version of this template, follow these steps to migrate.
+<style>
+.profile {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
 
-## 1. Update _config.yml
+.profile-photo {
+  width: 320px;
+  height: auto;
+  flex-shrink: 0;
+}
 
-The new config uses a simplified format. Move these fields:
+.profile-text {
+  flex: 1;
+}
 
-**Old format (remove):**
-```yaml
-title: Richard Feynman
-affiliation: >
-  Richard Feynman<br/>
-  Professor of Physics<br/>
-  California Institute of Technology
-location: >
-  ...
-contact: >
-  ...
-```
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-**New format (add):**
-```yaml
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
-photo: headshot.jpg
-links:
-  google_scholar: "..."
-  github: "..."
-accent_color: "#2563eb"
-dark_mode: true
-analytics:
-  google_id: ""
-```
+.desktop-name {
+  font-size: 52px;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
 
-## 2. Update _data/pi.yml
+.mobile-name {
+  display: none;
+}
 
-Basic PI info (name, photo, email, links) now lives in `_config.yml`. The `pi.yml` file only needs education data:
+@media (max-width: 768px) {
 
-```yaml
-- education:
-    - "(1942) Ph.D. Physics, Princeton University"
-  educationshort:
-    - "(1942) Ph.D. Physics, Princeton"
-```
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
 
-## 3. Organize Images (Optional)
+  .desktop-name {
+    display: none;
+  }
 
-New subdirectories are available:
-- `images/team/` — team member photos
-- `images/research/` — research thumbnails
-- `images/banner/` — banner images
+  .mobile-name {
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 25px 0;
+    text-align: center;
+  }
 
-Your existing flat `images/` structure still works.
+  .profile-photo {
+    width: 320px;
+    max-width: 100%;
+  }
 
-## 4. Data Files
+  .profile-text {
+    width: 100%;
+  }
+}
+</style>
 
-Field names in `team_members.yml`, `alumni.yml`, `news.yml`, etc. are unchanged. Your existing data files should work as-is.
+<div class="hero">
 
-## 5. Publications
+  <h1 class="desktop-name">
+    Matías Solorza
+  </h1>
 
-`assets/ref.bib` format is unchanged. Jekyll Scholar config stays in `_config.yml`. Update the `scholar.last_name` and `scholar.first_name` fields.
+  <div class="profile">
 
-## 6. Custom CSS
+    <div>
 
-If you added custom CSS to `SHB_css.scss`, move it to a new file in `_sass/` and import it in `assets/main.scss`.
+      <img
+        class="profile-photo"
+        src="/images/LinkedinMS.png"
+        alt="Matías Solorza">
 
-## 7. Install & Test
+      <h1 class="mobile-name">
+        Matías Solorza
+      </h1>
 
-```bash
-bundle install
-npm install        # only if you want to modify JS
-bundle exec jekyll serve
-```
+    </div>
+
+    <div class="profile-text">
+
+      <p style="margin-top:0;">
+        PhD Candidate in Economics<br>
+        University of California, Davis
+      </p>
+
+      <p>
+        I am a PhD candidate in Economics at the University of California, Davis.
+        My research lies at the intersection of macroeconomics and climate economics.
+        I study how natural disasters and climate risks shape investment, financial
+        markets, regional recovery, and long-run economic development.
+      </p>
+
+      <p>
+        <a href="mailto:{{ site.email }}">Email</a> |
+        <a href="https://www.linkedin.com/in/matías-solorza-510427127">
+          LinkedIn
+        </a>
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+## Research
+
+### Natural Disasters and Slow Recoveries: New Evidence from Chile
+
+(with Lissette Briones)
+
+Work in Progress
+
+Examines the persistence of regional economic declines following natural disasters in Chile. Using administrative and economic data, we study how capital destruction and financial frictions affect recovery dynamics and contribute to prolonged output losses.
+
+### The Ambiguity Costs of Climate Change
+
+(with Frances C. Moore and Benjamin Collier)
+
+Work in Progress
+
+Develops a framework to quantify the economic costs of climate-change-induced ambiguity and tail risks in U.S. insurance markets. The project examines how uncertainty about future climate damages affects insurance pricing and welfare.
