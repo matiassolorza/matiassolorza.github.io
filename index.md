@@ -3,12 +3,6 @@ layout: minimal
 title: "Home"
 ---
 
----
-
-layout: minimal
-title: "Home"
--------------
-
 <div style="text-align:center; margin-bottom:40px;">
   <h1 style="
     font-size:52px;
