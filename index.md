@@ -3,42 +3,15 @@ layout: minimal
 title: "Home"
 ---
 
-<div style="text-align:center; margin-bottom:40px;">
-  <h1 style="
-    font-size:52px;
-    font-weight:300;
-    margin:0;
-  ">
-    Matías Solorza
-  </h1>
-</div>
-
-<div style="
-  display:flex;
-  flex-wrap:wrap;
-  align-items:flex-start;
-  gap:40px;
-">
-
 <img
-src="/images/LinkedinMS.png"
-alt="Matías Solorza"
-style="
-width:300px;
-height:auto;
-flex:0 0 auto;
-"
-
+  class="profile-photo"
+  src="/images/LinkedinMS.png"
+  alt="Matías Solorza"
 >
 
-  <div style="
-    flex:1 1 400px;
-    min-width:280px;
-    line-height:1.6;
-    font-size:18px;
-  ">
-
-
+<h1 class="mobile-name">
+  Matías Solorza
+</h1>
 <p style="margin-top:0;">
   PhD Candidate in Economics<br>
   University of California, Davis
@@ -57,10 +30,6 @@ flex:0 0 auto;
     LinkedIn
   </a>
 </p>
-
-  </div>
-
-</div>
 
 ## Research
 
