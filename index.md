@@ -30,6 +30,7 @@ title: "Home"
   display: none;
 }
 
+  
 @media (max-width: 768px) {
 
   .profile {
@@ -59,7 +60,13 @@ title: "Home"
   .desktop-title {
   text-align: center;
   }
- 
+
+  .hero {
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  
+  
 }
 </style>
 
@@ -82,9 +89,13 @@ title: "Home"
 
 <div class="profile-text">
 
-<h1 class="desktop-name">
+<div class="hero">
+
+  <h1 class="desktop-name">
     Matías Solorza
   </h1>
+
+  <div class="profile">
 
 <p style="margin-top:0;">
   PhD Candidate in Economics<br>
@@ -107,6 +118,8 @@ title: "Home"
 
 
   </div>
+
+</div>
 
 </div>
 
