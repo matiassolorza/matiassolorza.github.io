@@ -123,10 +123,12 @@ title: "Home"
 
 (with Lissette Briones)
 
-Work in progress analyzing the persistence of negative macroeconomic shocks from natural disasters in Chile, focusing on how capital destruction and financial frictions delay regional recovery.
+Work in Progress
+Examines the persistence of regional economic declines following natural disasters in Chile. Using administrative and economic data, we study how capital destruction and financial frictions affect recovery dynamics and contribute to prolonged output losses.
 
 ### The Ambiguity Costs of Climate Change
 
 (with Frances C. Moore and Benjamin Collier)
 
-Work in progress on quantifying the economic costs of climate change-driven ambiguity and tail risks in US insurance markets.
+Work in Progress
+Develops a framework to quantify the economic costs of climate-change-induced ambiguity and tail risks in U.S. insurance markets. The project examines how uncertainty about future climate damages affects insurance pricing and welfare.
