@@ -104,7 +104,7 @@ title: "Home"
 
       <p>
         <a href="mailto:{{ site.email }}">Email</a> |
-        <a href="https://www.linkedin.com/in/matias-solorza-510427127">
+        <a href="https://www.linkedin.com/in/matías-solorza-510427127">
           LinkedIn
         </a>
       </p>
