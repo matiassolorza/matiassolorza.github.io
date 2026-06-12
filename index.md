@@ -20,17 +20,22 @@ title: "Home"
   flex: 1;
 }
 
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .desktop-name {
   font-size: 52px;
   font-weight: 300;
   margin: 0 0 30px 0;
+  text-align: center;
 }
 
 .mobile-name {
   display: none;
 }
 
-  
 @media (max-width: 768px) {
 
   .profile {
@@ -40,54 +45,27 @@ title: "Home"
   }
 
   .desktop-name {
-  font-size: 52px;
-  font-weight: 300;
-  margin: 0 0 20px 0;
-}
+    display: none;
+  }
 
-.mobile-name {
-  display: none;
-}
+  .mobile-name {
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 25px 0;
+    text-align: center;
+  }
 
   .profile-photo {
     width: 320px;
+    max-width: 100%;
   }
 
   .profile-text {
     width: 100%;
   }
-
-  .desktop-title {
-  text-align: center;
-  }
-
-  .hero {
-  max-width: 800px;
-  margin: 0 auto;
-  }
-  
-  
 }
 </style>
-
-<div class="profile">
-
-  <div>
-
-
-<img
-  class="profile-photo"
-  src="/images/LinkedinMS.png"
-  alt="Matías Solorza">
-
-<h1 class="mobile-name">
-  Matías Solorza
-</h1>
-
-
-  </div>
-
-<div class="profile-text">
 
 <div class="hero">
 
@@ -97,29 +75,43 @@ title: "Home"
 
   <div class="profile">
 
-<p style="margin-top:0;">
-  PhD Candidate in Economics<br>
-  University of California, Davis
-</p>
+    <div>
 
-<p>
-  I am a PhD candidate in Economics at the University of California, Davis.
-  My research lies at the intersection of macroeconomics and climate economics.
-  I study how natural disasters and climate risks shape investment, financial
-  markets, regional recovery, and long-run economic development.
-</p>
+      <img
+        class="profile-photo"
+        src="/images/LinkedinMS.png"
+        alt="Matías Solorza">
 
-<p>
-  <a href="mailto:{{ site.email }}">Email</a> |
-  <a href="https://www.linkedin.com/in/matias-solorza-510427127">
-    LinkedIn
-  </a>
-</p>
+      <h1 class="mobile-name">
+        Matías Solorza
+      </h1>
 
+    </div>
+
+    <div class="profile-text">
+
+      <p style="margin-top:0;">
+        PhD Candidate in Economics<br>
+        University of California, Davis
+      </p>
+
+      <p>
+        I am a PhD candidate in Economics at the University of California, Davis.
+        My research lies at the intersection of macroeconomics and climate economics.
+        I study how natural disasters and climate risks shape investment, financial
+        markets, regional recovery, and long-run economic development.
+      </p>
+
+      <p>
+        <a href="mailto:{{ site.email }}">Email</a> |
+        <a href="https://www.linkedin.com/in/matias-solorza-510427127">
+          LinkedIn
+        </a>
+      </p>
+
+    </div>
 
   </div>
-
-</div>
 
 </div>
 
