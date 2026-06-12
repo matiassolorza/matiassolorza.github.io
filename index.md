@@ -3,6 +3,72 @@ layout: minimal
 title: "Home"
 ---
 
+<style>
+.profile {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.profile-photo {
+  width: 220px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.desktop-name {
+  font-size: 52px;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+}
+
+.mobile-name {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .desktop-name {
+    display: none;
+  }
+
+  .mobile-name {
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 25px 0;
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 180px;
+  }
+
+  .profile-text {
+    width: 100%;
+  }
+}
+</style>
+
+<h1 class="desktop-name">
+  Matías Solorza
+</h1>
+
+<div class="profile">
+
+  <div>
+
+
 <img
   class="profile-photo"
   src="/images/LinkedinMS.png"
@@ -11,6 +77,13 @@ title: "Home"
 <h1 class="mobile-name">
   Matías Solorza
 </h1>
+
+
+  </div>
+
+  <div class="profile-text">
+
+
 <p style="margin-top:0;">
   PhD Candidate in Economics<br>
   University of California, Davis
@@ -30,6 +103,11 @@ title: "Home"
   </a>
 </p>
 
+
+  </div>
+
+</div>
+
 ## Research
 
 ### Natural Disasters and Slow Recoveries: New Evidence from Chile
@@ -40,21 +118,6 @@ Work in progress analyzing the persistence of negative macroeconomic shocks from
 
 ### The Ambiguity Costs of Climate Change
 
-(with Frances C. Moore and Benjamin Collier)
-
-Work in progress on quantifying the economic costs of climate change-driven ambiguity and tail risks in US insurance markets.
-
-
-
-## Research
-
-### Natural Disasters and Slow Recoveries: New Evidence from Chile  
-(with Lissette Briones)
-
-Work in progress analyzing the persistence of negative macroeconomic shocks from natural disasters in Chile, focusing on how capital destruction and financial frictions delay regional recovery.
-
-
-### The Ambiguity Costs of Climate Change  
 (with Frances C. Moore and Benjamin Collier)
 
 Work in progress on quantifying the economic costs of climate change-driven ambiguity and tail risks in US insurance markets.
