@@ -144,7 +144,7 @@ Develops a framework to quantify the economic costs of climate-change-induced am
 
 Published in the Latin American Journal of Central Banking, 2022
 
-Estimates a semi-structural macroeconomic model with a banking sector for the Chilean economy. The paper incorporates credit dynamics, interest rate spreads, and loan-loss provisions into the Central Bank of Chile’s forecasting framework to quantify the role of the credit channel in business cycle fluctuations and policy transmission. :contentReference[oaicite:0]{index=0}
+Estimates a semi-structural macroeconomic model with a banking sector for the Chilean economy. The paper incorporates credit dynamics, interest rate spreads, and loan-loss provisions into the Central Bank of Chile’s forecasting framework to quantify the role of the credit channel in business cycle fluctuations and policy transmission.
 
 [Paper](https://www.sciencedirect.com/science/article/pii/S2666143822000102)
 
