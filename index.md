@@ -125,7 +125,8 @@ title: "Home"
 
 Work in Progress
 
-Examines the persistence of regional economic declines following natural disasters in Chile. Using administrative and economic data, we study how capital destruction and financial frictions affect recovery dynamics and contribute to prolonged output losses.
+We study the macroeconomic responses of Chilean regions to natural disasters—floods and wildfires—using local projections and a combination of public and novel administrative data. We document persistent GDP losses, temporary declines in consumption, and a delayed recovery in investment, accompanied by rising employment but falling wages and effective hours. These dynamics contrast with U.S. county-level evidence and point to the importance of disaster size, as well as institutional and financial conditions, in shaping post-disaster recoveries in emerging economies. We interpret the evidence through four mechanisms: destruction of productive capital, tighter financial conditions that constrain rebuilding, production reallocation, and household wealth losses that depress consumption while supporting low-wage reconstruction employment.
+These patterns suggest limited regional resilience, as disruptions to productive capacity propagate through local production networks and delay recovery. Embedding these mechanisms into a real business cycle model with financial frictions, we show that financial constraints are quantitatively central: absent these frictions, post-disaster losses in economic activity during the first years would be reduced by about one half. Our findings highlight the role of targeted financial and reconstruction policies in mitigating the long-run economic costs of climate-related disasters. 
 
 ### The Ambiguity Costs of Climate Change
 
@@ -134,3 +135,17 @@ Examines the persistence of regional economic declines following natural disaste
 Work in Progress
 
 Develops a framework to quantify the economic costs of climate-change-induced ambiguity and tail risks in U.S. insurance markets. The project examines how uncertainty about future climate damages affects insurance pricing and welfare.
+
+### Published Papers
+
+#### The Credit Channel in Chile through the Lens of a Semi-Structural Model
+
+(with Francisco Arroyo Marioli and Juan Sebastián Becerra)
+
+Published in the Latin American Journal of Central Banking, 2022
+
+Estimates a semi-structural macroeconomic model with a banking sector for the Chilean economy. The paper incorporates credit dynamics, interest rate spreads, and loan-loss provisions into the Central Bank of Chile’s forecasting framework to quantify the role of the credit channel in business cycle fluctuations and policy transmission. :contentReference[oaicite:0]{index=0}
+
+[Paper](https://www.sciencedirect.com/science/article/pii/S2666143822000102)
+
+
