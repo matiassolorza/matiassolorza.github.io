@@ -100,6 +100,8 @@ title: "Home"
       </p>
 
       <p>
+        <a href="/files/CV.pdf">CV</a> |
+        <a href="/files/JMP.pdf">Job Market Paper</a>
         <a href="mailto:{{ site.email }}">Email</a> |
         <a href="https://www.linkedin.com/in/matías-solorza-510427127">
           LinkedIn
