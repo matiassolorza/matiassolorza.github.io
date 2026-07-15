@@ -127,12 +127,13 @@ title: "Home"
 
 ## Research
 
-### Natural Disasters and Slow Recoveries: New Evidence from Chile
+### Why Are Recoveries after Natural Disasters So Slow? Evidence from Chile
 
 (with Lissette Briones)
 
-We study the macroeconomic responses of Chilean regions to natural disasters—floods and wildfires—using local projections and a combination of public and novel administrative data. We document persistent output losses, weak investment recovery, declining commercial debt, and lower wages following disaster events. These patterns are difficult to reconcile with standard reconstruction dynamics, which predict a rapid recovery after capital destruction.
-To understand the sources of persistence, we develop a real business cycle model with capital destruction, financial frictions, labor distortions, and productivity disruptions. The model is disciplined by the post-disaster dynamics of GDP and investment and reproduces the observed persistence in economic activity. Our results show that no single mechanism explains slow recoveries. Capital destruction accounts for the initial decline in output, while financial conditions and productivity disruptions shape the subsequent recovery path. More broadly, slow recoveries emerge from the interaction of reconstruction needs, financing conditions, and persistent disruptions to productive capacity. These findings suggest that effective disaster recovery policies must address not only physical reconstruction, but also the financial and productivity barriers that hinder regional recovery after climate-related shocks.
+We study the macroeconomic consequences of floods and wildfires in Chile using local projections and a unique combination of public and novel administrative data. We document persistent output losses, weak investment despite strong incentives to rebuild productive capital, delayed contractions in commercial credit, and persistent declines in wages following disaster events. While these patterns reveal substantial post-disaster persistence, reduced-form evidence alone cannot identify the distortions responsible for the slow recovery.
+To address this question, we develop a quantitative accounting framework for post-disaster recoveries based on a dynamic general equilibrium model with capital destruction, financial frictions, productivity shocks, credit supply restrictions, and labor-market wedges. The model is disciplined by the joint dynamics of GDP, investment, credit, wages, and labor-market outcomes, allowing us to quantify the contribution of each distortion to the recovery process.
+We find that no single distortion explains the persistence of output losses. Instead, productive capital destruction drives the initial contraction, while productivity, financial conditions, credit supply restrictions, and labor-market distortions become quantitatively important at different stages of the recovery. Overall, persistent disaster recoveries in emerging economies arise from the interaction of multiple wedges rather than any single friction. Beyond the evidence for Chile, our framework provides a tractable accounting methodology for quantifying the macroeconomic distortions underlying post-disaster recoveries and evaluating reconstruction policies.
 
 ### The Ambiguity Costs of Climate Change
 
