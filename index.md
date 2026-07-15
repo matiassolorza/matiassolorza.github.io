@@ -96,7 +96,7 @@ title: "Home"
       </p>
 
       <p>
-        My research lies at the intersection of macroeconomics, climate economics, and finance. I study how natural disasters, climate risk, and financial frictions affect investment, adaptation, regional recovery, and long-run economic development. Using administrative microdata, empirical methods, and quantitative macroeconomic models, I examine the economic consequences of extreme events and the mechanisms that shape resilience to climate-related shocks.
+        My research lies at the intersection of macroeconomics, climate economics, and finance. I study how natural disasters, climate risk, and financial frictions affect investment, adaptation and long-run economic development. Using administrative microdata, empirical methods, and quantitative macroeconomic models, I examine the economic consequences of extreme events and the mechanisms that shape resilience to climate-related shocks.
       </p>
 
       <p>
