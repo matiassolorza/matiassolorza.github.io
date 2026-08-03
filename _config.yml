@@ -1,8 +1,17 @@
 
+title: "Matías Solorza"
+description: "PhD Candidate in Economics at the University of California, Davis"
+
 name: "Matías Solorza"
-title: "PhD Candidate in Economics"
+
+url: "https://matiassolorza.github.io"
+baseurl: ""
+
+author:
+  name: "Matías Solorza"
+  email: "masolorza@ucdavis.edu"
+  
 institution: "University of California, Davis"
-email: "masolorza@ucdavis.edu"
 photo: "LinkedinMS.png"
 
 links:
