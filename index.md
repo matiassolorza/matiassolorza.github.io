@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: "Home"
+title: "Matías Solorza"
 ---
 
 <style>
