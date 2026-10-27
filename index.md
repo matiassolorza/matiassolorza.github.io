@@ -20,13 +20,23 @@ title: "Matías Solorza"
   flex: 1;
 }
 
+/* Links */
+.profile-text a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.profile-text a:hover {
+  text-decoration: underline;
+}
+
 .hero {
   max-width: 800px;
   margin: 0 auto;
 }
 
 .desktop-name {
-  font-size: 52px;
+  font-size: 44px;
   font-weight: 300;
   margin: 0 0 30px 0;
   text-align: center;
@@ -34,6 +44,22 @@ title: "Matías Solorza"
 
 .mobile-name {
   display: none;
+}
+
+/* Research and Publications */
+
+h3, h4 {
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+h3 + p, h4 + p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h3 + p + p, h4 + p + p {
+  margin-top: 0;
 }
 
 @media (max-width: 768px) {
